@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Skydiving Review(html)</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css"/>
+</head>
+<body>
+    <form method="get" action="https://postman-echo.com/post"> 
+        <div>
+            <h1>Humber Skydiving</h1>
+            <h2>Review</h2>
+            <section>
+                <label>Your Name:</label>
+                <input type="text" id="client_name" name="client_name"/>
+            </section>
+            <section>
+                <h3>Overall Rating</h3>
+                <div>
+                    <input type="radio" id="overallrating_option1" name="rating_experience" value="poor" />
+                    <label for="overallrating_option1">Poor</label>
+                </div>
+                    <input type="radio" id="overallrating_option2" name="rating_experience" value="average" />
+                    <label for="overallrating_option2">Average</label>
+                <div>
+                    <input type="radio" id="overallrating_option3" name="rating_experience" value="good" />
+                    <label for="overallrating_option3">Good</label>
+                </div>
+                    <input type="radio" id="overallrating_option4" name="rating_experience" value="verygood" />
+                    <label for="overallrating_option4">Very Good</label>
+                <div>
+                    <input type="radio" id="overallrating_option5" name="rating_experience" value="excellent" />
+                    <label for="overallrating_option5">Excellent</label>
+                </div>
+            </section>
+            <section>
+                <h3>How would you rate staff service?</h3>
+                <div>
+                    <input type="radio" id="staffrating_option1" name="rating_staff" value="poor"/>
+                    <label for="staffrating_option1">Poor</label>
+                </div>
+                    <input type="radio" id="staffrating_option2" name="rating_staff" value="average"/>
+                    <label for="staffrating_option2">Average</label>
+                <div>
+                    <input type="radio" id="staffrating_option3" name="rating_staff" value="good"/>
+                    <label for="staffrating_option3">Good</label>
+                </div>
+                    <input type="radio" id="staffrating_option4" name="rating_staff" value="verygood"/>
+                    <label for="staffrating_option4">Very Good</label>
+                <div>
+                    <input type="radio" id="staffrating_option5" name="rating_staff" value="excellent"/>
+                    <label for="staffrating_option5">Excellent</label>
+                </div>
+            </section>
+            <section>
+                <h3>What sort of visit was it?</h3>
+                <div>
+                    <input type="checkbox" id="visit_type1" name="visit_type1" value="family"/>
+                    <label for="visit_type1">Family</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="visit_type2" name="visit_type2" value="friends"/>
+                    <label for="visit_type2">Friends</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="visit_type3" name="visit_type3" value="business"/>
+                    <label for="visit_type3">Business</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="visit_type4" name="visit_type4" value="couple"/>
+                    <label for="visit_type4">Couple</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="visit_type5" name="visit_type5" value="solo"/>
+                    <label for="visit_type5">Solo</label>
+                </div>
+            </section>
+            <section>
+                <h3>Which phase you enjoyed the most?</h3>
+                <div>
+                    <input type="checkbox" id="enjoyed_phase1" name="enjoyed_phase1" value="freefall"/>
+                    <label for="enjoyed_phase1">Freefall</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="enjoyed_phase2" name="enjoyed_phase2" value="parachute_opening"/>
+                    <label for="enjoyed_phase2">Parachute Opening</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="enjoyed_phase3" name="enjoyed_phase3" value="landing"/>
+                    <label for="enjoyed_phase3">Landing</label>
+                </div>
+            </section>
+            <section>
+                <h3>Who was your Instructor?</h3>
+                <select id="clients_instructor" name="clients_instructor">
+                    <option value="john">John</option>
+                    <option value="thomas">Thomas</option>
+                    <option value="james">James</option>
+                    <option value="twinkle">Twinkle</option>
+                    <option value="prabhdeep">Prabhdeep</option>
+                    <option value="tasmeen">Tasmeen</option>
+                    <option value="aman">Aman</option>
+                </select>
+            </section>
+            <section>
+                <input type="submit" value="Submit"/>
+            </section>
+        </div>
+        
+    </form>
+</body>
+</html>
