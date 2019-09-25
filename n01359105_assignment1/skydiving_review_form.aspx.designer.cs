@@ -31,13 +31,22 @@ namespace n01359105_assignment1 {
         protected global::System.Web.UI.WebControls.TextBox aspx_client_name;
         
         /// <summary>
-        /// overall_rating control.
+        /// aspx_client_contact control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList overall_rating;
+        protected global::System.Web.UI.WebControls.TextBox aspx_client_contact;
+        
+        /// <summary>
+        /// aspx_overall_rating control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox aspx_overall_rating;
         
         /// <summary>
         /// staff_rating control.
@@ -49,31 +58,22 @@ namespace n01359105_assignment1 {
         protected global::System.Web.UI.WebControls.RadioButtonList staff_rating;
         
         /// <summary>
-        /// visit_type control.
+        /// client_instructor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList visit_type;
+        protected global::System.Web.UI.WebControls.DropDownList client_instructor;
         
         /// <summary>
-        /// enjoyed_phase control.
+        /// confirm_box control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList enjoyed_phase;
-        
-        /// <summary>
-        /// clients_instructor control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList clients_instructor;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl confirm_box;
         
         /// <summary>
         /// submit control.
